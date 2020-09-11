@@ -53,8 +53,9 @@ Description of classroom :
 ### Prerequisite:
 Installing  openGL 
       Enter the following commands in the terminal:
+      
     $ sudo apt update
-
+    
    $ sudo apt-get install freeglut3 freeglut3-dev
 
    $ sudo apt-get install binutils-gold
@@ -66,7 +67,9 @@ Installing  openGL
   To run the 3D-classroom, Open the terminal in directory containing the program classroom.cpp(CS_352_project/3D-Classroom/) and then run the following commands:
 
    $ cmake . 
+   
    $ make all				//creates an output file named Classroom 
+   
    $ ./Classroom 			//run the output file
 
    $ make clean 			//removes all object file that was created
